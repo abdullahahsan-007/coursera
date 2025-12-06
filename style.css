@@ -401,9 +401,10 @@ h1 {
 .course-card-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 20px;
     width: 100%;
+    /* border: solid black; */
 }
 .course-header {
     display: flex;
