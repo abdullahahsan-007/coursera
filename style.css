@@ -337,6 +337,7 @@ h1 {
 .left-section {
     background-color: #f9fafb;
     padding: 15px;
+    width: 100%;
     border-radius: 4px;
 }
 
