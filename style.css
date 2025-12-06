@@ -841,6 +841,7 @@ footer {
         justify-content: end;
         padding: 14px 0px;
         position: relative;
+        /* box-shadow: none; */
         width: 100%;
     }
 
