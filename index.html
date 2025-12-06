@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Top Navigation -->
     <nav class="top-nav">
@@ -17,117 +19,177 @@
         <a href="https://www.coursera.org/government">For Governments</a>
     </nav>
 
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer">
+        <div class="drawer-header">
+            <span class="drawer-logo">coursera</span>
+            <button class="drawer-close" aria-label="Close menu"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="drawer-links">
+            <a href="#">Explore roles</a>
+            <a href="#">Explore categories</a>
+            <a href="#">Trending skills</a>
+            <a href="#">Earn a professional certificate</a>
+            <a href="#">Earn an online degree</a>
+            <a href="#">Prepare for a certification exam</a>
+            <a href="#" class="drawer-free">Browse free courses</a>
+        </div>
+        <div class="drawer-auth">
+            <a href="https://www.coursera.org/?authMode=signup" class="drawer-join">Join for Free</a>
+            <a href="https://www.coursera.org/?authMode=login" class="drawer-login">Log In</a>
+        </div>
+    </div>
+
     <!-- Main Navigation -->
     <nav class="main-nav">
+        <button class="hamburger" aria-label="Open menu">
+            <i class="fas fa-bars"></i>
+        </button>
         <div class="left-nav">
-        <a href="https://www.coursera.org/" class="logo">coursera</a>
-        
-        <div class="nav-links">
-            <div class="explore-dropdown">
-                <a href="https://www.coursera.org/browse" class="explore-link">
-                    Explore
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </a>
-                <div class="dropdown-content">
-                    <div class="dropdown-grid">
-                        <div class="dropdown-section">
-                            <h3>Explore roles</h3>
-                            <ul>
-                                <li><a href="https://www.coursera.org/career-academy/data-analyst">Data Analyst</a></li>
-                                <li><a href="https://www.coursera.org/career-academy/project-manager">Project Manager</a></li>
-                                <li><a href="https://www.coursera.org/career-academy/cyber-security-analyst">Cyber Security Analyst</a></li>
-                                <li><a href="https://www.coursera.org/career-academy/data-scientist">Data Scientist</a></li>
-                                <li><a href="https://www.coursera.org/career-academy/business-intelligence-analyst">Business Intelligence Analyst</a></li>
-                                <li><a href="https://www.coursera.org/career-academy/digital-marketing-specialist">Digital Marketing Specialist</a></li>
-                                <li><a href="https://www.coursera.org/career-academy/ui-ux-designer">UI / UX Designer</a></li>
-                                <li><a href="https://www.coursera.org/career-academy/machine-learning-engineer">Machine Learning Engineer</a></li>
-                                <li><a href="https://www.coursera.org/career-academy/social-media-specialist">Social Media Specialist</a></li>
-                                <li><a href="https://www.coursera.org/career-academy/computer-support-specialist">Computer Support Specialist</a></li>
-                                <li><a href="https://www.coursera.org/career-academy" class="view-all-link">View all</a></li>
-                            </ul>
+            <a href="https://www.coursera.org/" class="logo">coursera</a>
+
+            <div class="nav-links">
+                <div class="explore-dropdown">
+                    <a href="https://www.coursera.org/browse" class="explore-link">
+                        Explore
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-grid">
+                            <div class="dropdown-section">
+                                <h3>Explore roles</h3>
+                                <ul>
+                                    <li><a href="https://www.coursera.org/career-academy/data-analyst">Data Analyst</a>
+                                    </li>
+                                    <li><a href="https://www.coursera.org/career-academy/project-manager">Project
+                                            Manager</a></li>
+                                    <li><a href="https://www.coursera.org/career-academy/cyber-security-analyst">Cyber
+                                            Security Analyst</a></li>
+                                    <li><a href="https://www.coursera.org/career-academy/data-scientist">Data
+                                            Scientist</a></li>
+                                    <li><a href="https://www.coursera.org/career-academy/business-intelligence-analyst">Business
+                                            Intelligence Analyst</a></li>
+                                    <li><a href="https://www.coursera.org/career-academy/digital-marketing-specialist">Digital
+                                            Marketing Specialist</a></li>
+                                    <li><a href="https://www.coursera.org/career-academy/ui-ux-designer">UI / UX
+                                            Designer</a></li>
+                                    <li><a href="https://www.coursera.org/career-academy/machine-learning-engineer">Machine
+                                            Learning Engineer</a></li>
+                                    <li><a href="https://www.coursera.org/career-academy/social-media-specialist">Social
+                                            Media Specialist</a></li>
+                                    <li><a href="https://www.coursera.org/career-academy/computer-support-specialist">Computer
+                                            Support Specialist</a></li>
+                                    <li><a href="https://www.coursera.org/career-academy" class="view-all-link">View
+                                            all</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown-section">
+                                <h3>Explore categories</h3>
+                                <ul>
+                                    <li><a href="https://www.coursera.org/browse/data-science/artificial-intelligence">Artificial
+                                            Intelligence</a></li>
+                                    <li><a href="https://www.coursera.org/browse/business">Business</a></li>
+                                    <li><a href="https://www.coursera.org/browse/data-science">Data Science</a></li>
+                                    <li><a href="https://www.coursera.org/browse/information-technology">Information
+                                            Technology</a></li>
+                                    <li><a href="https://www.coursera.org/browse/computer-science">Computer Science</a>
+                                    </li>
+                                    <li><a href="https://www.coursera.org/browse/health">Healthcare</a></li>
+                                    <li><a href="https://www.coursera.org/browse/physical-science-and-engineering">Physical
+                                            Science and Engineering</a></li>
+                                    <li><a href="https://www.coursera.org/browse/personal-development">Personal
+                                            Development</a></li>
+                                    <li><a href="https://www.coursera.org/browse/social-sciences">Social Sciences</a>
+                                    </li>
+                                    <li><a href="https://www.coursera.org/browse/language-learning">Language
+                                            Learning</a></li>
+                                    <li><a href="https://www.coursera.org/browse/arts-and-humanities">Arts and
+                                            Humanities</a></li>
+                                    <li><a href="https://www.coursera.org/browse" class="view-all-link">View all</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown-section">
+                                <h3>Earn a Professional Certificate</h3>
+                                <ul>
+                                    <li><a
+                                            href="https://www.coursera.org/professional-certificates/google-business-intelligence">Business</a>
+                                    </li>
+                                    <li><a
+                                            href="https://www.coursera.org/professional-certificates/google-it-automation">Computer
+                                            Science</a></li>
+                                    <li><a
+                                            href="https://www.coursera.org/professional-certificates/google-data-analytics">Data
+                                            Science</a></li>
+                                    <li><a href="https://www.coursera.org/professional-certificates/google-it-support">Information
+                                            Technology</a></li>
+                                    <li><a href="https://www.coursera.org/professional-certificates"
+                                            class="view-all-link">View all</a></li>
+                                </ul>
+
+                                <h3 style="margin-top: 25px;">Earn an online degree</h3>
+                                <ul>
+                                    <li><a href="https://www.coursera.org/degrees/bachelors">Bachelor's Degrees</a></li>
+                                    <li><a href="https://www.coursera.org/degrees/masters">Master's Degrees</a></li>
+                                    <li><a href="https://www.coursera.org/degrees/postgraduate-diploma">Postgraduate
+                                            Programs</a></li>
+                                    <li><a href="https://www.coursera.org/degrees" class="view-all-link">View all</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown-section">
+                                <h3>Explore trending skills</h3>
+                                <ul>
+                                    <li><a href="https://www.coursera.org/courses?query=python">Python</a></li>
+                                    <li><a href="https://www.coursera.org/courses?query=artificial%20intelligence">Artificial
+                                            Intelligence</a></li>
+                                    <li><a href="https://www.coursera.org/courses?query=excel">Excel</a></li>
+                                    <li><a href="https://www.coursera.org/courses?query=machine%20learning">Machine
+                                            Learning</a></li>
+                                    <li><a href="https://www.coursera.org/courses?query=sql">SQL</a></li>
+                                    <li><a href="https://www.coursera.org/courses?query=project%20management">Project
+                                            Management</a></li>
+                                    <li><a href="https://www.coursera.org/courses?query=power%20bi">Power BI</a></li>
+                                    <li><a href="https://www.coursera.org/courses?query=marketing">Marketing</a></li>
+                                </ul>
+
+                                <h3 style="margin-top: 25px;">Prepare for a certification exam</h3>
+                                <ul>
+                                    <li><a href="https://www.coursera.org/professional-certificates/google-it-support"
+                                            class="view-all-link">View all</a></li>
+                                </ul>
+                            </div>
                         </div>
 
-                        <div class="dropdown-section">
-                            <h3>Explore categories</h3>
-                            <ul>
-                                <li><a href="https://www.coursera.org/browse/data-science/artificial-intelligence">Artificial Intelligence</a></li>
-                                <li><a href="https://www.coursera.org/browse/business">Business</a></li>
-                                <li><a href="https://www.coursera.org/browse/data-science">Data Science</a></li>
-                                <li><a href="https://www.coursera.org/browse/information-technology">Information Technology</a></li>
-                                <li><a href="https://www.coursera.org/browse/computer-science">Computer Science</a></li>
-                                <li><a href="https://www.coursera.org/browse/health">Healthcare</a></li>
-                                <li><a href="https://www.coursera.org/browse/physical-science-and-engineering">Physical Science and Engineering</a></li>
-                                <li><a href="https://www.coursera.org/browse/personal-development">Personal Development</a></li>
-                                <li><a href="https://www.coursera.org/browse/social-sciences">Social Sciences</a></li>
-                                <li><a href="https://www.coursera.org/browse/language-learning">Language Learning</a></li>
-                                <li><a href="https://www.coursera.org/browse/arts-and-humanities">Arts and Humanities</a></li>
-                                <li><a href="https://www.coursera.org/browse" class="view-all-link">View all</a></li>
-                            </ul>
+                        <div class="dropdown-footer">
+                            Not sure where to begin?
+                            <a href="https://www.coursera.org/search">Browse free courses</a> or
+                            <a href="https://www.coursera.org/courseraplus">Learn more about Coursera<span
+                                    class="coursera-plus-badge">PLUS</span></a>
                         </div>
-
-                        <div class="dropdown-section">
-                            <h3>Earn a Professional Certificate</h3>
-                            <ul>
-                                <li><a href="https://www.coursera.org/professional-certificates/google-business-intelligence">Business</a></li>
-                                <li><a href="https://www.coursera.org/professional-certificates/google-it-automation">Computer Science</a></li>
-                                <li><a href="https://www.coursera.org/professional-certificates/google-data-analytics">Data Science</a></li>
-                                <li><a href="https://www.coursera.org/professional-certificates/google-it-support">Information Technology</a></li>
-                                <li><a href="https://www.coursera.org/professional-certificates" class="view-all-link">View all</a></li>
-                            </ul>
-                            
-                            <h3 style="margin-top: 25px;">Earn an online degree</h3>
-                            <ul>
-                                <li><a href="https://www.coursera.org/degrees/bachelors">Bachelor's Degrees</a></li>
-                                <li><a href="https://www.coursera.org/degrees/masters">Master's Degrees</a></li>
-                                <li><a href="https://www.coursera.org/degrees/postgraduate-diploma">Postgraduate Programs</a></li>
-                                <li><a href="https://www.coursera.org/degrees" class="view-all-link">View all</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="dropdown-section">
-                            <h3>Explore trending skills</h3>
-                            <ul>
-                                <li><a href="https://www.coursera.org/courses?query=python">Python</a></li>
-                                <li><a href="https://www.coursera.org/courses?query=artificial%20intelligence">Artificial Intelligence</a></li>
-                                <li><a href="https://www.coursera.org/courses?query=excel">Excel</a></li>
-                                <li><a href="https://www.coursera.org/courses?query=machine%20learning">Machine Learning</a></li>
-                                <li><a href="https://www.coursera.org/courses?query=sql">SQL</a></li>
-                                <li><a href="https://www.coursera.org/courses?query=project%20management">Project Management</a></li>
-                                <li><a href="https://www.coursera.org/courses?query=power%20bi">Power BI</a></li>
-                                <li><a href="https://www.coursera.org/courses?query=marketing">Marketing</a></li>
-                            </ul>
-
-                            <h3 style="margin-top: 25px;">Prepare for a certification exam</h3>
-                            <ul>
-                                <li><a href="https://www.coursera.org/professional-certificates/google-it-support" class="view-all-link">View all</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="dropdown-footer">
-                        Not sure where to begin? 
-                        <a href="https://www.coursera.org/search">Browse free courses</a> or 
-                        <a href="https://www.coursera.org/courseraplus">Learn more about Coursera<span class="coursera-plus-badge">PLUS</span></a>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="search-container">
-            <input type="text" placeholder="What do you want to learn?">
-            <button class="search-btn">
-               <i class="fas fa-search"></i>
-            </button>
+            <div class="search-container">
+                <input type="text" placeholder="What do you want to learn?">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
         </div>
+        <div class="right-nav">
+            <div class="auth-buttons">
+                <a href="https://www.coursera.org/?authMode=login" class="login-btn">Log In</a>
+                <a href="https://www.coursera.org/?authMode=signup" class="join-btn">Join for Free</a>
+            </div>
         </div>
-<div class="right-nav">
-        <div class="auth-buttons">
-            <a href="https://www.coursera.org/?authMode=login" class="login-btn">Log In</a>
-            <a href="https://www.coursera.org/?authMode=signup" class="join-btn">Join for Free</a>
-        </div>
-   </div>
     </nav>
 
     <!-- Main Content -->
@@ -135,8 +197,13 @@
         <div class="breadcrumb">
             <a href="https://www.coursera.org/">Course Catalog</a>
         </div>
-        
+
         <h1>Google Agile Essentials</h1>
+
+        <!-- Mobile-only certificate section, shown at top -->
+        <div class="mobile-certificate-section">
+            <img src="assets/certificate.png" alt="Certificate" class="certificate-image">
+        </div>
 
         <div class="content-wrapper">
             <!-- Left Section -->
@@ -150,37 +217,53 @@
                         <h3>Completed by Sami Khan</h3>
                         <p><strong>December 5, 2025</strong></p>
                         <p><strong>6 hours (approximately)</strong></p>
-                        <p style="margin-top: 10px; font-size: 12px;">Sami Khan account is verified. Coursera certifies their successful completion of <a href="https://www.coursera.org/learn/google-agile-essentials" style="color: #0056D2;">Google Agile Essentials</a></p>
+                        <p style="margin-top: 10px; font-size: 12px;">Sami Khan account is verified. Coursera certifies
+                            their successful completion of <a
+                                href="https://www.coursera.org/learn/google-agile-essentials"
+                                style="color: #0056D2;">Google Agile Essentials</a></p>
                     </div>
                 </div>
 
                 <div class="course-card">
-                    <div class="course-header">
-                        <svg class="google-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
-                            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
-                            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
-                            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.46-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
-                        </svg>
-                        <div class="course-header-text">
-                            <div class="course-title">
-                                <a href="https://www.coursera.org/learn/google-agile-essentials" style="color: #1f1f1f; text-decoration: none;">Google Agile Essentials</a>
-                            </div>
-                            <div class="course-provider">Google</div>
-                            <div class="rating">
-                                <span class="stars">★★★★★</span> <strong>4.8</strong> (106 ratings) | 18,493 already enrolled
+                    <div class="course-card-content">
+                        <div class="course-header">
+                            <svg class="google-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#EA4335"
+                                    d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" />
+                                <path fill="#4285F4"
+                                    d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z" />
+                                <path fill="#FBBC05"
+                                    d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z" />
+                                <path fill="#34A853"
+                                    d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.46-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" />
+                            </svg>
+                            <div class="course-header-text">
+                                <div class="course-title">
+                                    <a href="https://www.coursera.org/learn/google-agile-essentials"
+                                        style="color: #1f1f1f; text-decoration: none;">Google Agile Essentials</a>
+                                </div>
+                                <div class="course-provider">Google</div>
+                                <div class="rating">
+                                    <span class="stars">★★★★★</span> <strong>4.8</strong> (106 ratings) | 18,493 already
+                                    enrolled
+                                </div>
                             </div>
                         </div>
-                        <button class="enroll-btn" onclick="window.location.href='https://www.coursera.org/learn/google-agile-essentials'">Enroll for Free</button>
+                        <button class="enroll-btn"
+                            onclick="window.location.href='https://www.coursera.org/learn/google-agile-essentials'">Enroll
+                            for Free</button>
                     </div>
-
                     <div class="course-info">
                         <h4>What you'll learn</h4>
                         <ul>
-                            <li><span class="checkmark-green">✓</span> Confidently guide your team or organization through a shift to Agile</li>
-                            <li><span class="checkmark-green">✓</span> Build high performing Scrum teams through improved collaboration and communication</li>
-                            <li><span class="checkmark-green">✓</span> Increase project efficiency and organization to drive business outcomes</li>
-                            <li><span class="checkmark-green">✓</span> Develop tools and artifacts such as product backlogs, sprint plans, sprint backlogs and retrospectives</li>
+                            <li><span class="checkmark-green">✓</span> Confidently guide your team or organization
+                                through a shift to Agile</li>
+                            <li><span class="checkmark-green">✓</span> Build high performing Scrum teams through
+                                improved collaboration and communication</li>
+                            <li><span class="checkmark-green">✓</span> Increase project efficiency and organization to
+                                drive business outcomes</li>
+                            <li><span class="checkmark-green">✓</span> Develop tools and artifacts such as product
+                                backlogs, sprint plans, sprint backlogs and retrospectives</li>
                         </ul>
                     </div>
 
@@ -209,6 +292,21 @@
                 <img src="assets/certificate.png" alt="Certificate" class="certificate-image">
             </div>
         </div>
+        <!-- Mobile-only completion badge, shown after course card -->
+        <div class="mobile-completion-badge">
+            <div class="avatar">
+                <i class="fas fa-user"></i>
+                <div class="checkmark"><i class="fas fa-check"></i></div>
+            </div>
+            <div class="completion-info">
+                <h3>Completed by Sami Khan</h3>
+                <p><strong>December 5, 2025</strong></p>
+                <p><strong>6 hours (approximately)</strong></p>
+                <p style="margin-top: 10px; font-size: 12px;">Sami Khan account is verified. Coursera certifies their
+                    successful completion of <a href="https://www.coursera.org/learn/google-agile-essentials"
+                        style="color: #0056D2;">Google Agile Essentials</a></p>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -217,15 +315,18 @@
             <div class="footer-section">
                 <h3>Skills</h3>
                 <ul>
-                    <li><a href="https://www.coursera.org/courses?query=artificial%20intelligence">Artificial Intelligence (AI)</a></li>
+                    <li><a href="https://www.coursera.org/courses?query=artificial%20intelligence">Artificial
+                            Intelligence (AI)</a></li>
                     <li><a href="https://www.coursera.org/courses?query=cybersecurity">Cybersecurity</a></li>
                     <li><a href="https://www.coursera.org/courses?query=data%20analytics">Data Analytics</a></li>
                     <li><a href="https://www.coursera.org/courses?query=digital%20marketing">Digital Marketing</a></li>
                     <li><a href="https://www.coursera.org/courses?query=english">English</a></li>
                     <li><a href="https://www.coursera.org/courses?query=generative%20ai">Generative AI (GenAI)</a></li>
                     <li><a href="https://www.coursera.org/courses?query=microsoft%20excel">Microsoft Excel</a></li>
-                    <li><a href="https://www.coursera.org/courses?query=microsoft%20power%20bi">Microsoft Power BI</a></li>
-                    <li><a href="https://www.coursera.org/courses?query=project%20management">Project Management</a></li>
+                    <li><a href="https://www.coursera.org/courses?query=microsoft%20power%20bi">Microsoft Power BI</a>
+                    </li>
+                    <li><a href="https://www.coursera.org/courses?query=project%20management">Project Management</a>
+                    </li>
                     <li><a href="https://www.coursera.org/courses?query=python">Python</a></li>
                 </ul>
             </div>
@@ -234,14 +335,22 @@
                 <h3>Certificates & Programs</h3>
                 <ul>
                     <li><a href="https://www.coursera.org/google-certificates">Google Cybersecurity Certificate</a></li>
-                    <li><a href="https://www.coursera.org/professional-certificates/google-data-analytics">Google Data Analytics Certificate</a></li>
-                    <li><a href="https://www.coursera.org/professional-certificates/google-it-support">Google IT Support Certificate</a></li>
-                    <li><a href="https://www.coursera.org/professional-certificates/google-project-management">Google Project Management Certificate</a></li>
-                    <li><a href="https://www.coursera.org/google-certificates/google-ux-design-certificate">Google UX Design Certificate</a></li>
-                    <li><a href="https://www.coursera.org/professional-certificates/ibm-data-analyst">IBM Data Analyst Certificate</a></li>
-                    <li><a href="https://www.coursera.org/professional-certificates/ibm-data-science">IBM Data Science Certificate</a></li>
-                    <li><a href="https://www.coursera.org/professional-certificates/machine-learning-engineering">Machine Learning Certificate</a></li>
-                    <li><a href="https://www.coursera.org/professional-certificates/microsoft-power-bi-analyst">Microsoft Power BI Analyst Certificate</a></li>
+                    <li><a href="https://www.coursera.org/professional-certificates/google-data-analytics">Google Data
+                            Analytics Certificate</a></li>
+                    <li><a href="https://www.coursera.org/professional-certificates/google-it-support">Google IT Support
+                            Certificate</a></li>
+                    <li><a href="https://www.coursera.org/professional-certificates/google-project-management">Google
+                            Project Management Certificate</a></li>
+                    <li><a href="https://www.coursera.org/google-certificates/google-ux-design-certificate">Google UX
+                            Design Certificate</a></li>
+                    <li><a href="https://www.coursera.org/professional-certificates/ibm-data-analyst">IBM Data Analyst
+                            Certificate</a></li>
+                    <li><a href="https://www.coursera.org/professional-certificates/ibm-data-science">IBM Data Science
+                            Certificate</a></li>
+                    <li><a href="https://www.coursera.org/professional-certificates/machine-learning-engineering">Machine
+                            Learning Certificate</a></li>
+                    <li><a href="https://www.coursera.org/professional-certificates/microsoft-power-bi-analyst">Microsoft
+                            Power BI Analyst Certificate</a></li>
                     <li><a href="https://www.coursera.org/professional-certificates">UI / UX Design Certificate</a></li>
                 </ul>
             </div>
@@ -252,13 +361,16 @@
                     <li><a href="https://www.coursera.org/career-academy/business">Business</a></li>
                     <li><a href="https://www.coursera.org/career-academy/computer-science">Computer Science</a></li>
                     <li><a href="https://www.coursera.org/career-academy/data-science">Data Science</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/information-technology">Information Technology</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/education-teaching">Education & Teaching</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/information-technology">Information
+                            Technology</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/education-teaching">Education & Teaching</a>
+                    </li>
                     <li><a href="https://www.coursera.org/career-academy/engineering">Engineering</a></li>
                     <li><a href="https://www.coursera.org/career-academy/finance">Finance</a></li>
                     <li><a href="https://www.coursera.org/career-academy/healthcare">Healthcare</a></li>
                     <li><a href="https://www.coursera.org/career-academy/human-resources">Human Resources (HR)</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/information-technology">Information Technology (IT)</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/information-technology">Information Technology
+                            (IT)</a></li>
                     <li><a href="https://www.coursera.org/career-academy/marketing">Marketing</a></li>
                 </ul>
             </div>
@@ -266,16 +378,26 @@
             <div class="footer-section">
                 <h3>Career Resources</h3>
                 <ul>
-                    <li><a href="https://www.coursera.org/career-academy/career-aptitude-test">Career Aptitude Test</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/examples-of-strengths">Examples of Strengths and Weaknesses for Job Interviews</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/high-income-skills">High Income Skills to Learn</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/how-does-cryptocurrency-work">How Does Cryptocurrency Work?</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/highlight-duplicates">How to Highlight Duplicates in Google Sheets</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/artificial-intelligence">How to Learn Artificial Intelligence</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/popular-cybersecurity-certifications">Popular Cybersecurity Certifications</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/pmp-certification">Preparing for the PMP Certification</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/signs-you-will-not-get-the-job">Signs You Will Not Get the Job After an Interview</a></li>
-                    <li><a href="https://www.coursera.org/career-academy/what-is-artificial-intelligence">What Is Artificial Intelligence?</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/career-aptitude-test">Career Aptitude Test</a>
+                    </li>
+                    <li><a href="https://www.coursera.org/career-academy/examples-of-strengths">Examples of Strengths
+                            and Weaknesses for Job Interviews</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/high-income-skills">High Income Skills to
+                            Learn</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/how-does-cryptocurrency-work">How Does
+                            Cryptocurrency Work?</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/highlight-duplicates">How to Highlight
+                            Duplicates in Google Sheets</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/artificial-intelligence">How to Learn
+                            Artificial Intelligence</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/popular-cybersecurity-certifications">Popular
+                            Cybersecurity Certifications</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/pmp-certification">Preparing for the PMP
+                            Certification</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/signs-you-will-not-get-the-job">Signs You Will
+                            Not Get the Job After an Interview</a></li>
+                    <li><a href="https://www.coursera.org/career-academy/what-is-artificial-intelligence">What Is
+                            Artificial Intelligence?</a></li>
                 </ul>
             </div>
         </div>
@@ -328,27 +450,28 @@
                     <li><a href="https://www.coursera.org/articles">Articles</a></li>
                     <li><a href="https://www.coursera.org/directory">Directory</a></li>
                     <li><a href="https://www.coursera.org/affiliates">Affiliates</a></li>
-                    <li><a href="https://www.coursera.org/about/modern-slavery-statement">Modern Slavery Statement</a></li>
+                    <li><a href="https://www.coursera.org/about/modern-slavery-statement">Modern Slavery Statement</a>
+                    </li>
                     <li><a href="https://www.coursera.org/about/cookie-preferences">Manage Cookie Preferences</a></li>
                 </ul>
             </div>
 
             <div class="footer-section footer-apps-section">
                 <a href="https://apps.apple.com/app/coursera/id736535961">
-                    <img src="assets/app-store-badge.png" alt="Download on the App Store" height="40">
+                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/download_on_the_app_store_badge_en.svg?auto=format%2Ccompress&dpr=2&w=152&h=45&q=40" alt="Download on the App Store" height="40">
                 </a>
                 <a href="https://play.google.com/store/apps/details?id=org.coursera.android">
-                    <img src="assets/google-play-badge.png" alt="Get it on Google Play" height="40">
+                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/en_generic_rgb_wo_45.png?auto=format%2Ccompress&dpr=2&w=152&h=45&q=40" alt="Get it on Google Play" height="40">
                 </a>
                 <div class="bcorp-badge-top">
-                    <img src="assets/bcorp-logo.png" alt="Certified B Corporation" height="80">
+                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d3njjcbhbojbot.cloudfront.net/web/images/icons/2018-B-Corp-Logo-Black-S.png?auto=format%2Ccompress&dpr=2&w=151&h=120&q=40" alt="Certified B Corporation" height="80">
                 </div>
             </div>
         </div>
 
         <div class="footer-bottom">
             <div class="footer-logo-section">
-               
+
                 <p>© 2025 Coursera Inc. All rights reserved.</p>
             </div>
 
@@ -374,8 +497,34 @@
                 </a>
             </div>
 
-         
+
         </div>
     </footer>
+
+    <script>
+        // Mobile Drawer Interactivity
+        const hamburger = document.querySelector('.hamburger');
+        const drawer = document.querySelector('.mobile-drawer');
+        const drawerClose = document.querySelector('.drawer-close');
+
+        function openDrawer() {
+            drawer.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeDrawer() {
+            drawer.style.display = 'none';
+            document.body.style.overflow = '';
+        }
+
+        if (hamburger && drawer && drawerClose) {
+            hamburger.addEventListener('click', openDrawer);
+            drawerClose.addEventListener('click', closeDrawer);
+            drawer.addEventListener('click', function(e) {
+                if (e.target === drawer) closeDrawer();
+            });
+        }
+    </script>
 </body>
+
 </html>
